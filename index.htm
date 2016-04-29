@@ -4,10 +4,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	    <style>
-			div.image {
+
+	    	.img-responsive {
+    			margin: 0 auto;
+			}
+			.shadow {
 				box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 			  	text-align: center;
 			  	margin-top: 20px;
+			  	margin-bottom: 0px;
+			  	border-top-left-radius: 6px;
+				border-top-right-radius: 6px;
+				border: solid 1px #CFCFCF;
+				border-bottom: 0px;
 			}
 			div.gradient {
 			  	background-image: linear-gradient(0deg, #ACD8EF, #FFFFFF);
@@ -105,11 +114,14 @@
 			<div class="container-fluid">
 
 				<div class="row" style="padding-top:40px;">
+	  				<div class="col-md-12">
+		  				<img src="images/logo.png" class="img-responsive" alt="logo">
+	  				</div>
+			  	</div>
+
+				<div class="row">
 			  		<div class="col-md-5" ></div>
 	  				<div class="col-md-2">
-	  					<div>
-		  					<img src="images/logo.png" class="img-responsive" alt="logo">
-		  				</div>
 	  					<h1 class="text-center header1">Fork</h2>
 	  				</div>
 	  				<div class="col-md-5"></div>
@@ -130,9 +142,7 @@
 			  	<div class="row">
 			  		<div class="col-md-1" ></div>
 	  				<div class="col-md-10">
-	  					<div class="image">
-		  					<img src="images/image1.png" class="img-responsive" alt="image 1">
-		  				</div>
+	  					<img src="images/image1.png" class="img-responsive shadow" alt="image 1">
 	  				</div>
 			  		<div class="col-md-1" ></div>
 			  	</div>
