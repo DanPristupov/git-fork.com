@@ -10,8 +10,9 @@
         <description>
           <![CDATA[
             <ul>
-              <li>Added welcome screen with basic user information</li>
-              <li>Added automatic updates for the application</li>
+              <li>Added welcome screen with basic user information.</li>
+              <li>Created DMG installer.</li>
+              <li>Added automatic updates for the application.</li>
               <li>Show/hide commit description field automatically in the commit view.</li>
               <li>Show notification bar when repository is in merge-in-progress state.</li>
               <li>Improved: Show error when targed folder is not a git repository.</li>
