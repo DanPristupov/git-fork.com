@@ -10,30 +10,15 @@
         <description>
           <![CDATA[
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Blah blah blah.</li>
+              <li>1 1 1 1 1 1 1.</li>
               <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
               <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
             </ul>
           ]]>
         </description>
         <pubDate>Mon, 30 May 2016 10:50:00 +0000</pubDate>
-        <enclosure url="https://git-fork.com/git-fork.com/update/files/Fork%20v0.0.7.zip" sparkle:version="2.0" length="107758" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC42flO16tncZavqlCtltLDUW0eDwIUaEjU+T9NlU7yqejtMBa+SXnXXdc=" />
-      </item>
-      <item>
-        <title>Version 1.0.6</title>
-        <description>
-          <![CDATA[
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
-              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
-            </ul>
-          ]]>
-        </description>
-        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://git-fork.com/git-fork.com/update/files/Fork%20v0.0.6.zip" sparkle:version="2.0" length="107758" type="application/octet-stream" sparkle:dsaSignature="MCwCFCdoW13VBGJWIfIklKxQVyetgxE7AhQTVuY9uQT0KOV1UEk21epBsGZMPg==" />
+        <enclosure url="https://git-fork.com/git-fork.com/update/files/Fork%20v0.0.7.zip" length="107758" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC42flO16tncZavqlCtltLDUW0eDwIUaEjU+T9NlU7yqejtMBa+SXnXXdc=" />
       </item>
   </channel>
 </rss>
