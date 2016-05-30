@@ -18,7 +18,7 @@
           ]]>
         </description>
         <pubDate>Mon, 30 May 2016 10:50:00 +0000</pubDate>
-        <enclosure url="http://git-fork.com/git-fork.com/update/files/Fork%20v0.0.7.zip" sparkle:version="1.0.7" length="107758" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC42flO16tncZavqlCtltLDUW0eDwIUaEjU+T9NlU7yqejtMBa+SXnXXdc=" />
+        <enclosure url="http://git-fork.com/update/files/Fork%20v0.0.7.zip" sparkle:version="1.0.7" length="107758" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC42flO16tncZavqlCtltLDUW0eDwIUaEjU+T9NlU7yqejtMBa+SXnXXdc=" />
       </item>
   </channel>
 </rss>
