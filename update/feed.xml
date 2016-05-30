@@ -10,10 +10,12 @@
         <description>
           <![CDATA[
             <ul>
-              <li>Blah blah blah.</li>
-              <li>1 1 1 1 1 1 1.</li>
-              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+              <li>Added welcome screen with basic user information</li>
+              <li>Added automatic updates for the application</li>
+              <li>Show/hide commit description field automatically in the commit view.</li>
+              <li>Show notification bar when repository is in merge-in-progress state.</li>
+              <li>Improved: Show error when targed folder is not a git repository.</li>
+              <li>Fixed: Click on table view item in quick open view doesn't open repository.</li>
             </ul>
           ]]>
         </description>
