@@ -5,9 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	    <style>
-	    	#inviteResponse {
-	    		display: none;
-	    	}
+
 	    	.img-responsive {
     			margin: 0 auto;
 			}
@@ -157,19 +155,12 @@
 			 	<div class="row">
 				  	<div class="col-md-2" ></div>
 		  			<div class="clearfix col-md-4">
-		  				<h3 class="header3 white">We're In Private Beta!</h3>
-		  				<p class="lead white">After a busy spring, we're happy to announce that we're entering private beta. Please sign up if you'd like to participate in beta testing.</p>
+		  				<h3 class="header3 white">Beta version</h3>
+		  				<p class="lead white">Almost there. Coming soon...</p>
 		  			</div>
 		  			<div class="clearfix col-md-4">
-		  				<h3 class="header3 white">Join the Beta</h3>
-						<form class="form-inline">
-							<div class="form-group">
-							    <input type="email" class="form-control" id="inviteEmail" placeholder="Enter your email address">
-							</div>
-							<button type="button" class="btn btn-default" id="requestInvite">Request an invite</button>
-						</form>
-						
-						<p class="lead white" id="inviteResponse"></p>
+		  				<h3 class="header3 white">Sign up for Beta</h3>
+		  				<p class="lead white">Join the waiting list to try it yourself. Oh... even the waiting list is not done yet :). But we are working on that.</p>
 		  			</div>
 		  			<div class="col-md-2"></div>
 				</div>
@@ -712,7 +703,6 @@ In order to make the public beta closer, I added the feedback button which allow
 		  			<div class="col-md-2"></div>
 				</div>
 			</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -721,37 +711,7 @@ In order to make the public beta closer, I added the feedback button which allow
 
 		  ga('create', 'UA-77266528-1', 'auto');
 		  ga('send', 'pageview');
-			
-			$(document).ready(function(){
-			    var url = "http://git-fork.azurewebsites.net/invite"
-			    $("#requestInvite").click(function(){
-			        var email = $('#inviteEmail').val().trim()
-			        if (email.length > 0) {
-						$("#requestInvite").attr('disabled', true)
-						$('#inviteEmail').attr('disabled', true)
-						$('#inviteResponse').hide()
-						$.ajax({
-						  type: "POST",
-						  url: url,
-						  data: { email: email, token: '82b8822e-ebd5-4dd4-a9c5-72e4e18efec6'},
-						  success: function(response) {
-						  	$('#inviteResponse')
-						  		.html('Thank you for your interest! Keep an eye out for our emails. <span class="label label-success">Request sent</span>')
-						  		.show()
-						  	$('.form-inline').hide()
-						  },
-						  error: function(xhr, ajaxOptions, thrownError) {
-						  	$('#inviteResponse')
-						  		.html('<span class="label label-danger">Communication error. Try again later.</span>')
-						  		.show()
-						  }, complete: function(){
-						      $("#requestInvite").attr('disabled', false)
-							  $('#inviteEmail').attr('disabled', false)
-						  }
-						});
-			        }
-			    });
-			});
+
 		</script>
 	</body>
 </html>
